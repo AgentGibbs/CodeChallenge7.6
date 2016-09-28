@@ -4,7 +4,7 @@ import org.openqa.selenium.support.*;
 import java.util.List;
 
 /**
- * Created by Christian Gibbs on 9/27/2016.
+ * Created on 9/27/2016.
  */
 public class SkiUtahPage {
 
@@ -31,7 +31,6 @@ public class SkiUtahPage {
 
     public boolean GoToPage(String url, String verificationString)
     {
-
         if(driver.getCurrentUrl().equalsIgnoreCase(url)==false)
         {
             driver.get(url);
@@ -39,4 +38,6 @@ public class SkiUtahPage {
 
         return driver.getTitle().toLowerCase().contains(verificationString.toLowerCase());
     }
+
+
 }

@@ -4,7 +4,7 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-
+import org.openqa.selenium.browserlaunchers.locators.GoogleChromeLocator;
 public class WebDriverHelper {
 
     public WebDriverHelper() {
