@@ -32,7 +32,7 @@ public class PageLauncher {
 
     public SkiUtahPage Launch()
     {
-        driver.get("https://www.skiutah.com");
+        driver.get("https://www.skiutah.com/");
         return new SkiUtahPage(driver);
 
     //TODO return a new page

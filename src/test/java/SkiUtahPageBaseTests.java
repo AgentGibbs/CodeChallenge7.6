@@ -24,6 +24,7 @@ public class SkiUtahPageBaseTests {
     helper = launchpad.Booster();
 
 }
+
 @Test
 public void crawl()
 {
@@ -33,7 +34,7 @@ public void crawl()
 @Test
     public void VerifyTitle()
 {
-Assert.assertTrue(page.GoToPage("http://www.skiutah.com", "Ski Utah - ski utah"));
+Assert.assertTrue(page.GoToPage("https://www.skiutah.com/", "Ski Utah - ski utah"));
 
 }
 

@@ -26,19 +26,20 @@ public class SkiUtahPage {
         for (WebElement link:pageLinks
              ) {
             //TODO start crawl method here
-System.out.println(link.getAttribute("href"));
+//System.out.println(link.getAttribute("href"));
         }//end foreach
     }//end method
 
 
     public boolean GoToPage(String url, String verificationString)
     {
-        url = url.toLowerCase();
-        String title = verificationString.toLowerCase();
-        if(driver.getCurrentUrl().toLowerCase()!= url)
+
+        if(driver.getCurrentUrl().equalsIgnoreCase(url)==false)
         {
             driver.get(url);
         } //Endif
-        return driver.getTitle().toLowerCase().contains(title);
+
+
+        return driver.getTitle().toLowerCase().contains(verificationString.toLowerCase());
     }
 }
