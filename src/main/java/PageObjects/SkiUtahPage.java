@@ -1,7 +1,6 @@
 package PageObjects;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
-
 import java.util.List;
 
 /**
@@ -9,7 +8,7 @@ import java.util.List;
  */
 public class SkiUtahPage {
 
-
+    public List<String>linkHrefs;
     @FindAll(
             @FindBy(how = How.TAG_NAME, using = "a")
     )
@@ -30,7 +29,6 @@ public class SkiUtahPage {
         }//end foreach
     }//end method
 
-
     public boolean GoToPage(String url, String verificationString)
     {
 
@@ -38,7 +36,6 @@ public class SkiUtahPage {
         {
             driver.get(url);
         } //Endif
-
 
         return driver.getTitle().toLowerCase().contains(verificationString.toLowerCase());
     }
