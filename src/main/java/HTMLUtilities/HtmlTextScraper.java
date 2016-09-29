@@ -18,9 +18,8 @@ public class HtmlTextScraper {
     }
 
 
-    public String[] scrapePageText(String url) {
+    public String[] scrapePageText() {
         String[] values = new String[1];
-
         if (doc != null) {
             values = doc.body().text().replaceAll("\\p{P}", "").toUpperCase().split("\\s+");
             populatePageLinks();

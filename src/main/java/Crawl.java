@@ -27,7 +27,7 @@ public class Crawl {
         }
 
         //Create a scraper
-        HtmlTextScraper scraper = new HtmlTextScraper();
+        HtmlTextScraper scraper = new HtmlTextScraper(doc);
         //Scrape the text
         String[] pageText = scraper.scrapePageText();
         //Write the text to a file
