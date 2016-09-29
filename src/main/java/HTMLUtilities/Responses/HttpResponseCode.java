@@ -68,9 +68,9 @@ public enum HttpResponseCode{
 
 
     private int value;
-    private HttpResponseCode(int code)
+    private HttpResponseCode(int value)
     {
-        this.value=code;
+        this.value=value;
     }
 
 }

@@ -24,8 +24,7 @@ public class SkiUtahPage {
     public void Crawl(){
         for (WebElement link:pageLinks
              ) {
-            //TODO start crawl method here
-//System.out.println(link.getAttribute("href"));
+
         }//end foreach
     }//end method
 
@@ -38,6 +37,4 @@ public class SkiUtahPage {
 
         return driver.getTitle().toLowerCase().contains(verificationString.toLowerCase());
     }
-
-
 }
