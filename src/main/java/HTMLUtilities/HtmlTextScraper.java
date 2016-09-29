@@ -11,51 +11,48 @@ public class HtmlTextScraper {
 
     public Document doc;
     private Connection ct;
-
-    public HtmlTextScraper() {
+    private ArrayList<String> pageLinks;
+    public HtmlTextScraper(Document docToScrape) {
         System.out.println("Building Scraper");
+        doc = docToScrape;
     }
 
 
     public String[] scrapePageText(String url) {
         String[] values = new String[1];
-        try {
-            ct = Jsoup.connect(url);
-            System.out.println("connecting to " + url);
-            doc = ct.get();
-            findPageLinks();
 
-        } catch (Exception e) {
-            System.out.println(ct.response().statusCode() + " error:");
-            System.out.println(url + " could not be read.");
-            System.out.println("Error " + e.getMessage());
-            //e.printStackTrace();
-        }
         if (doc != null) {
             values = doc.body().text().replaceAll("\\p{P}", "").toUpperCase().split("\\s+");
+            populatePageLinks();
         }
         return values;
     }
 
-    public ArrayList<String> pageLinks;
+
 
     public ArrayList<String> getPageLinks() {
+
         return pageLinks;
     }
 
-    private void findPageLinks() {
-
-
+    private void populatePageLinks()
+    {
         Elements anchorTags = doc.select("a");
+        if(pageLinks==null)
+        {pageLinks = new ArrayList<String>();}
         for (Element link : anchorTags
                 ) {
             String href = link.attr("href");
-            if (!pageLinks.contains(href)) {
+            if (pageLinks.contains(href)==false) {
                 pageLinks.add(href);
             }
 
         }
+        System.out.println(anchorTags.size());
 
     }
+
+
+
 
 }

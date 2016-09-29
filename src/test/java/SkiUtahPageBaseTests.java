@@ -40,23 +40,25 @@ Assert.assertTrue(page.GoToPage("https://www.skiutah.com/", "Ski Utah - ski utah
 
 }
 */
+
+HtmlTextScraper scraper;
+@BeforeSuite
+public void initialize()
+{
+    scraper = new HtmlTextScraper();}
+    ArrayList<String> results;
     @Test
     public void VerifyNavigation()
     {
-        HtmlTextScraper scraper = new HtmlTextScraper();
-        String[]result = scraper.scrapePageText("https://www.skiutah.com/");
-        Assert.assertTrue(result.length >1);
 
+        String[]result = scraper.scrapePageText("https://www.skiutah.com/");
+        results = scraper.getPageLinks();
+       Assert.assertTrue(result.length >0);
     }
     @Test
     public void VerifyLinks()
     {
-        HtmlTextScraper scraper = new HtmlTextScraper();
-        ArrayList<String> results = scraper.getPageLinks();
-        for (String word:results
-                ) {
-            System.out.println(word);
-        }
+
         Assert.assertTrue(results.size()>0);
     }
 

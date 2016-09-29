@@ -11,10 +11,12 @@ public class CrawlerProgram {
 
 
     public static int maxThreadCount;
-/*
+
     private static void crawlSite(String initialUrl) throws Exception {
+
         HashSet<String> crawledList = new HashSet<String>();
         Queue<String> toCrawlList = new LinkedList<String>();
+
         ConcurrentLinkedQueue<Future<List<String>>> futures = new ConcurrentLinkedQueue<Future<List<String>>>();
         ExecutorService threadPool = Executors.newFixedThreadPool(maxThreadCount);
         int lineNumber = 1;

@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e88f9380-2298-4917-ae4b-bea14b5739f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CrawlerProgram.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/Responsecodes.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/Responsecodes1.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HTMLUtilities/HtmlTextScraper.class" afterPath="$PROJECT_DIR$/target/classes/HTMLUtilities/HtmlTextScraper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HTMLUtilities/Responses/HTTPResponseHandler.class" afterPath="$PROJECT_DIR$/target/classes/HTMLUtilities/Responses/HTTPResponseHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HTMLUtilities/Responses/HttpResponseCode.class" afterPath="$PROJECT_DIR$/target/classes/HTMLUtilities/Responses/HttpResponseCode.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/PageObjects/SkiUtahPage.class" afterPath="$PROJECT_DIR$/target/classes/PageObjects/SkiUtahPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SkiUtahPageBaseTests.class" afterPath="$PROJECT_DIR$/target/test-classes/SkiUtahPageBaseTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Crawl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CrawlerProgram.java" afterPath="$PROJECT_DIR$/src/main/java/CrawlerProgram.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" afterPath="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/HTTPResponseHandler.java" afterPath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/HTTPResponseHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/HttpResponseCode.java" afterPath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/HttpResponseCode.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java" afterPath="$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java" />
     </list>
     <ignored path="codechallenge7v6.iws" />
@@ -42,10 +30,40 @@
       <file leaf-file-name="SkiUtahPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="413">
               <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CrawlerProgram.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CrawlerProgram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#437#445#0" expanded="true" />
+                <element signature="e#499#507#0" expanded="true" />
+                <element signature="e#599#621#0" expanded="true" />
+                <element signature="e#974#996#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Crawl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Crawl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,25 +89,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WebDriverHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WebDriverUtilities/WebDriverHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HtmlTextScraper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="149">
+              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
-                <element signature="e#1100#1101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,24 +104,12 @@
       <file leaf-file-name="SkiUtahPageBaseTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1475184944771" expanded="false" signature="623:630" ph=" { " />
-                <marker date="1475184944771" expanded="false" signature="643:645" ph=" }" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrawlerProgram.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CrawlerProgram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1475188264622" expanded="false" signature="623:630" ph=" { " />
+                <marker date="1475188264622" expanded="false" signature="643:645" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -161,8 +155,9 @@
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/CrawlerProgram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" />
         <option value="$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Crawl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" />
       </list>
     </option>
   </component>
@@ -610,34 +605,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 14h 20m 07s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 00m 42s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 14h 20m 50s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 01m 34s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 14h 49m 52s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 02m 31s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 14h 51m 17s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 03m 12s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 14h 54m 50s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 04m 40s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 15h 18m 34s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 05m 25s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 15h 20m 39s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 07m 12s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 15h 28m 34s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 08m 13s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 15h 33m 53s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 08m 45s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 15h 35m 07s.xml">
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.29 at 16h 13m 42s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -731,8 +726,6 @@
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -767,8 +760,8 @@
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1475184944771" expanded="false" signature="623:630" ph=" { " />
-            <marker date="1475184944771" expanded="false" signature="643:645" ph=" }" />
+            <marker date="1475188264622" expanded="false" signature="623:630" ph=" { " />
+            <marker date="1475188264622" expanded="false" signature="643:645" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -821,8 +814,6 @@
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -857,8 +848,8 @@
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1475184944771" expanded="false" signature="623:630" ph=" { " />
-            <marker date="1475184944771" expanded="false" signature="643:645" ph=" }" />
+            <marker date="1475188264622" expanded="false" signature="623:630" ph=" { " />
+            <marker date="1475188264622" expanded="false" signature="643:645" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -911,8 +902,6 @@
           <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -947,8 +936,8 @@
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1475184944771" expanded="false" signature="623:630" ph=" { " />
-            <marker date="1475184944771" expanded="false" signature="643:645" ph=" }" />
+            <marker date="1475188264622" expanded="false" signature="623:630" ph=" { " />
+            <marker date="1475188264622" expanded="false" signature="643:645" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -985,22 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WebDriverUtilities/WebDriverHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1042,7 +1015,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="413">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1050,36 +1023,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WebDriverUtilities/WebDriverHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="242">
+          <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1475184944771" expanded="false" signature="623:630" ph=" { " />
-            <marker date="1475184944771" expanded="false" signature="643:645" ph=" }" />
+            <marker date="1475188264622" expanded="false" signature="623:630" ph=" { " />
+            <marker date="1475188264622" expanded="false" signature="643:645" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CrawlerProgram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        <state relative-caret-position="391">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#437#445#0" expanded="true" />
+            <element signature="e#499#507#0" expanded="true" />
+            <element signature="e#599#621#0" expanded="true" />
+            <element signature="e#974#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Crawl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        <state relative-caret-position="149">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
