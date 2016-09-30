@@ -69,7 +69,7 @@ public class CrawlerProgram {
 
     private static boolean UrlIsOkay(String newUrl) {
         boolean isOkay = false;
-        if (!toCrawlList.contains(newUrl) && !crawledList.contains(newUrl) && newUrl.contains(domainName) && newUrl.contains("blog")==false){
+        if (!toCrawlList.contains(newUrl) && !crawledList.contains(newUrl) && newUrl.contains(domainName)){
             isOkay = true;
         }
         return isOkay;
