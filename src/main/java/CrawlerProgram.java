@@ -17,23 +17,11 @@ public class CrawlerProgram {
     private static Queue<String> toCrawlList = new LinkedList<String>();
     private static String domainName;
 
- /*   public CrawlerProgram(String url){
-        try {
-            crawlSite(url);
-        }
-        catch(Exception e){
-            System.out.println("Now you've done it...");
-            System.out.println(e.getLocalizedMessage());
-            e.printStackTrace();
-        }
-    }
-*/
     public static void crawlSite(String initialUrl) throws Exception {
         extractDomainName(initialUrl);
 
         ConcurrentLinkedQueue<Future<List<String>>> futures = new ConcurrentLinkedQueue<Future<List<String>>>();
         ExecutorService threadPool = Executors.newFixedThreadPool(maxThreadCount);
-        int lineNumber = 1;
 
         Crawl crawl = new Crawl(initialUrl);
         crawledList.add(initialUrl);
@@ -48,8 +36,6 @@ public class CrawlerProgram {
                         if (UrlIsOkay(newUrl)) {
                             System.out.println("New URL found: " + newUrl);
                             toCrawlList.add(newUrl);
-                            //WriteToFile.writeOutput(validUrlsOutFile, "\n[" + lineNumber + "] " + newUrl);
-                            lineNumber++;
                         }
                     }
                     completedFutures.add(future);

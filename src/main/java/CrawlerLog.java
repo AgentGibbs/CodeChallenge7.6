@@ -1,5 +1,3 @@
-import java.text.DateFormat;
-import java.util.ArrayList;
 import java.io.*;
 import java.util.Date;
 
@@ -10,18 +8,9 @@ public class CrawlerLog {
     private static String sep = File.separator;
     private static String filePath = "src"+ sep + "main" + sep +"resources"+ sep + "logfiles";
 
-    private static String DictionaryFile = "";
-    private static String ExceptionLogFile;
-    private static String LogFile;
-
     private static String getTimeStamp()
     {
         return new Date().toString();
-    }
-
-    public static void LogEvent(String event)
-    {
-
     }
 
     public static void logException(String message, Exception e)
