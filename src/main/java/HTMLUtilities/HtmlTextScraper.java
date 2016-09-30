@@ -1,16 +1,13 @@
 package HTMLUtilities;
 
-import org.jsoup.*;
 import org.jsoup.nodes.*;
 import org.jsoup.select.Elements;
 
 import java.util.*;
 
-
 public class HtmlTextScraper {
 
     public Document doc;
-    private Connection ct;
     private ArrayList<String> pageLinks;
     public HtmlTextScraper(Document docToScrape) {
         System.out.println("Building Scraper");
@@ -26,8 +23,6 @@ public class HtmlTextScraper {
         }
         return values;
     }
-
-
 
     public ArrayList<String> getPageLinks() {
         populatePageLinks();
@@ -45,13 +40,6 @@ public class HtmlTextScraper {
             if (pageLinks.contains(href)==false) {
                 pageLinks.add(href);
             }
-
         }
-
-
     }
-
-
-
-
 }

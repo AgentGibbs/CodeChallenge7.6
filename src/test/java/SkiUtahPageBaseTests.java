@@ -1,7 +1,4 @@
-import PageObjects.SkiUtahPage;
 
-import Selenium.PageLauncher;
-import WebDriverUtilities.WebDriverHelper;
 import org.testng.*;
 import org.testng.annotations.*;
 import HTMLUtilities.HtmlTextScraper;
@@ -14,24 +11,10 @@ import java.util.List;
  */
 public class SkiUtahPageBaseTests {
 
-    public SkiUtahPage page;
-    public WebDriverHelper helper;
 
 /*@BeforeTest
-    public void SetUpLauncher()
-{
-    PageLauncher launchpad = new PageLauncher();
-    launchpad.CountDown();
-    page = launchpad.Launch();
-    helper = launchpad.Booster();
 
-}
 
-@Test
-public void crawl()
-{
-    page.Crawl();
-}
 
 @Test
     public void VerifyTitle()
@@ -39,7 +22,6 @@ public void crawl()
 Assert.assertTrue(page.GoToPage("https://www.skiutah.com/", "Ski Utah - ski utah"));
 
 }
-*/
 
 HtmlTextScraper scraper;
 @BeforeSuite
@@ -61,6 +43,22 @@ public void initialize()
 
         Assert.assertTrue(results.size()>0);
     }
+*/
 
+    @Test
+    public void crawl()
+    {
+        List<String> hrefs = new ArrayList<String>();
+
+        try {
+            CrawlerProgram.crawlSite("http://wvcert.org/");
+           // CrawlerProgram.crawlSite("https://www.skiutah.com/");
+        }
+        catch(Exception e){
+            e.printStackTrace();
+        }
+        Assert.assertTrue(hrefs.size()==0);
+
+    }
 
 }

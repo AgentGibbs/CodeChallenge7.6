@@ -1,3 +1,5 @@
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.*;
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
@@ -10,12 +12,24 @@ import java.util.concurrent.Future;
 public class CrawlerProgram {
 
 
-    public static int maxThreadCount;
+    private static int maxThreadCount = 5;
+    private static HashSet<String> crawledList = new HashSet<String>();
+    private static Queue<String> toCrawlList = new LinkedList<String>();
+    private static String domainName;
 
-    private static void crawlSite(String initialUrl) throws Exception {
-
-        HashSet<String> crawledList = new HashSet<String>();
-        Queue<String> toCrawlList = new LinkedList<String>();
+ /*   public CrawlerProgram(String url){
+        try {
+            crawlSite(url);
+        }
+        catch(Exception e){
+            System.out.println("Now you've done it...");
+            System.out.println(e.getLocalizedMessage());
+            e.printStackTrace();
+        }
+    }
+*/
+    public static void crawlSite(String initialUrl) throws Exception {
+        extractDomainName(initialUrl);
 
         ConcurrentLinkedQueue<Future<List<String>>> futures = new ConcurrentLinkedQueue<Future<List<String>>>();
         ExecutorService threadPool = Executors.newFixedThreadPool(maxThreadCount);
@@ -30,8 +44,8 @@ public class CrawlerProgram {
             for (Future<List<String>> future : futures) {
                 if (future.isDone()) {
                     List<String> newUrls = future.get();
-                    for(String newUrl : newUrls) {
-                        if (!toCrawlList.contains(newUrl) && !crawledList.contains(newUrl) && newUrl.contains(initialUrl)) {
+                    for (String newUrl : newUrls) {
+                        if (UrlIsOkay(newUrl)) {
                             System.out.println("New URL found: " + newUrl);
                             toCrawlList.add(newUrl);
                             //WriteToFile.writeOutput(validUrlsOutFile, "\n[" + lineNumber + "] " + newUrl);
@@ -44,7 +58,7 @@ public class CrawlerProgram {
             System.out.println("Visited URLs: " + crawledList.size());
             System.out.println("URLs to visit: " + futures.size());
             futures.removeAll(completedFutures);
-            while ( !toCrawlList.isEmpty() ) {
+            while (!toCrawlList.isEmpty()) {
                 String urlToCrawl = toCrawlList.poll();
                 futures.add(threadPool.submit(new Crawl(urlToCrawl)));
                 crawledList.add(urlToCrawl);
@@ -53,4 +67,22 @@ public class CrawlerProgram {
         }
     }
 
+    private static boolean UrlIsOkay(String newUrl) {
+        boolean isOkay = false;
+        if (!toCrawlList.contains(newUrl) && !crawledList.contains(newUrl) && newUrl.contains(domainName) && newUrl.contains("blog")==false){
+            isOkay = true;
+        }
+        return isOkay;
+    }
+
+    private static void extractDomainName(String initialURL) {
+        try {
+            URL url = new URL(initialURL);
+            domainName = url.getHost();
+            System.out.println("Domain name " +domainName);
+        } catch (MalformedURLException e) {
+            System.out.println(initialURL + " is not a valid web address.");
+
+        }
+    }
 }

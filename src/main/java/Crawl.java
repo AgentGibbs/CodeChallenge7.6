@@ -17,40 +17,47 @@ public class Crawl implements Callable{
     private String url;
     private Connection ct;
     private Document doc;
+
+
     public Crawl(String initialUrl){
         url=initialUrl;
     }
 
     public List<String> call() throws Exception{
+        ArrayList<String>returnValues = new ArrayList<String>();
+
         try {
             ct = Jsoup.connect(url).timeout(5000).userAgent("Chrome");
             doc = ct.get();
-        }
-        catch (HttpStatusException e1) {
-            System.err.println("Invalid response code on the following page:" + e1.getUrl());
+    //Create a scraper
+            HtmlTextScraper scraper = new HtmlTextScraper(doc);
+            //Scrape the text
+            String[] pageText = scraper.scrapePageText();
 
-            if (logging) WriteToFile.writeOutput(error404LogFile, "\n" + url);
+            //Write the text to a file
+              DictionaryBuilder.updateDictionary(pageText);
+            //Get the Links
+            returnValues = scraper.getPageLinks();
         }
-        catch (SocketTimeoutException e2) {
-            System.err.println("SocketTimeoutException caught, error: " + e2.getLocalizedMessage());
-            if (logging) WriteToFile.writeOutput(timeOutLogFile, "\n" + url);
+        catch (HttpStatusException hse) {
+
+            String error = "Invalid response code on the following page:" + hse.getUrl() ;
+            CrawlerLog.LogExceptionBasic(error, hse);
         }
-        catch (Exception e3) {
-            System.err.println("Error: " + e3.getMessage());
-            e3.printStackTrace();
+        catch (SocketTimeoutException ste) {
+            String error = "SocketTimeoutException caught on " + url;
+            CrawlerLog.LogExceptionBasic(error, ste);
+        }
+        catch (Exception e) {
+            String error = "Undefined Exception caught on " + url;
+            CrawlerLog.LogExceptionBasic(error, e);
         }
 
-        //Create a scraper
-        HtmlTextScraper scraper = new HtmlTextScraper(doc);
-        //Scrape the text
-        String[] pageText = scraper.scrapePageText();
 
-        //Write the text to a file
-        //TODO write class to save info in file
-        //Get the Links
-        return scraper.getPageLinks();
-
+    return  returnValues;
     }
+    //private void
+
 
 
 
