@@ -10,7 +10,7 @@ public class HtmlTextScraper {
     public Document doc;
     private ArrayList<String> pageLinks;
     public HtmlTextScraper(Document docToScrape) {
-        System.out.println("Building Scraper");
+        System.out.println("Scraping page");
         doc = docToScrape;
     }
 

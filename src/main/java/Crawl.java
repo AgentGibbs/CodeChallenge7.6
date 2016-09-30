@@ -42,15 +42,15 @@ public class Crawl implements Callable{
         catch (HttpStatusException hse) {
 
             String error = "Invalid response code on the following page:" + hse.getUrl() ;
-            CrawlerLog.LogExceptionBasic(error, hse);
+            CrawlerLog.logException(error, hse);
         }
         catch (SocketTimeoutException ste) {
             String error = "SocketTimeoutException caught on " + url;
-            CrawlerLog.LogExceptionBasic(error, ste);
+            CrawlerLog.logException(error, ste);
         }
         catch (Exception e) {
             String error = "Undefined Exception caught on " + url;
-            CrawlerLog.LogExceptionBasic(error, e);
+            CrawlerLog.logException(error, e);
         }
 
 

@@ -2,26 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e88f9380-2298-4917-ae4b-bea14b5739f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/DictionaryBuilder.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/HTTPResponseHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/Responses/HttpResponseCode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/Selenium/PageLauncher.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/WebDriverUtilities/WebCrawler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/WebDriverUtilities/WebDriverHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/PageObjects/SkiUtahPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Selenium/PageLauncher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/WebDriverUtilities/WebCrawler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/WebDriverUtilities/WebDriverHelper.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/CrawlerLog.java" afterPath="$PROJECT_DIR$/src/main/java/CrawlerLog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CrawlerProgram.class" afterPath="$PROJECT_DIR$/target/classes/CrawlerProgram.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/HTMLUtilities/HtmlTextScraper.class" afterPath="$PROJECT_DIR$/target/classes/HTMLUtilities/HtmlTextScraper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SkiUtahPageBaseTests.class" afterPath="$PROJECT_DIR$/target/test-classes/SkiUtahPageBaseTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/$.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/3.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/6.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/A.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/B.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/C.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/D.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/E.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/F.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/G.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/H.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/I.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/L.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/M.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/N.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/O.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/P.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/R.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/S.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/T.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/U.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/V.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/W.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/Y.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/ .txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/dictionaries/©.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Crawl.java" afterPath="$PROJECT_DIR$/src/main/java/Crawl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CrawlerProgram.java" afterPath="$PROJECT_DIR$/src/main/java/CrawlerProgram.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CrawlerLog.java" afterPath="$PROJECT_DIR$/src/main/java/CrawlerLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DictionaryBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/DictionaryBuilder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" afterPath="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java" afterPath="$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java" />
     </list>
     <ignored path="codechallenge7v6.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,26 +60,25 @@
       <file leaf-file-name="CrawlerLog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CrawlerLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="94">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DictionaryBuilder.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DictionaryBuilder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="490">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#2366#2374#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SkiUtahPageBaseTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SkiUtahPageBaseTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -116,8 +129,8 @@
       <file leaf-file-name="HtmlTextScraper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="781">
-              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+            <state relative-caret-position="-38">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,14 +178,14 @@
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/PageObjects/SkiUtahPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/HTMLUtilities/CrawlerLog.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CrawlerLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/DictionaryAssembler.java" />
         <option value="$PROJECT_DIR$/src/main/java/dictionaryBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" />
         <option value="$PROJECT_DIR$/src/main/java/CrawlerProgram.java" />
         <option value="$PROJECT_DIR$/src/main/java/Crawl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DictionaryBuilder.java" />
         <option value="$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CrawlerLog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DictionaryBuilder.java" />
       </list>
     </option>
   </component>
@@ -544,12 +557,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.30 at 15h 25m 54s.xml">
-      <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SkiUtahPageBaseTests - 2016.09.30 at 15h 33m 58s.xml">
-      <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SkiUtahPageBaseTests - 2016.09.30 at 15h 36m 05s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
@@ -574,10 +581,16 @@
     <history-entry file="SkiUtahPageBaseTests - 2016.09.30 at 16h 00m 01s.xml">
       <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.30 at 16h 57m 22s.xml">
+      <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SkiUtahPageBaseTests - 2016.09.30 at 17h 00m 34s.xml">
+      <configuration name="SkiUtahPageBaseTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="154" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -586,7 +599,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4873765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4873765" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -999,28 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CrawlerLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="781">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CrawlerProgram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
@@ -1046,18 +1037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SkiUtahPageBaseTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1065,6 +1044,39 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#919#927#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CrawlerLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HTMLUtilities/HtmlTextScraper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DictionaryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2366#2374#0" expanded="true" />
           </folding>
         </state>
       </provider>
