@@ -1,10 +1,6 @@
 
-import org.testng.*;
 import org.testng.annotations.*;
-import HTMLUtilities.HtmlTextScraper;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Christian Gibbs on 9/27/2016.
