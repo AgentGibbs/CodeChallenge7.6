@@ -22,7 +22,7 @@ public class HtmlTextScraper {
         String[] values = new String[1];
         if (doc != null) {
             values = doc.body().text().replaceAll("\\p{P}", "").toUpperCase().split("\\s+");
-            populatePageLinks();
+
         }
         return values;
     }
@@ -30,7 +30,7 @@ public class HtmlTextScraper {
 
 
     public ArrayList<String> getPageLinks() {
-
+        populatePageLinks();
         return pageLinks;
     }
 
@@ -47,7 +47,7 @@ public class HtmlTextScraper {
             }
 
         }
-        System.out.println(anchorTags.size());
+
 
     }
 

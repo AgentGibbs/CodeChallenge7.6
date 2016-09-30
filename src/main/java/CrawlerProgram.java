@@ -23,6 +23,7 @@ public class CrawlerProgram {
 
         Crawl crawl = new Crawl(initialUrl);
         crawledList.add(initialUrl);
+
         futures.add(threadPool.submit(crawl));
         while (!futures.isEmpty()) {
             List<Future<List<String>>> completedFutures = new ArrayList<Future<List<String>>>();
@@ -51,5 +52,5 @@ public class CrawlerProgram {
             Thread.sleep(300);
         }
     }
-*/
+
 }
