@@ -11,7 +11,7 @@ public class SkiUtahTests {
     {
 
         try {
-           // CrawlerProgram.crawlSite("http://wvcert.org/");
+            //CrawlerProgram.crawlSite("http://wvcert.org/");
             CrawlerProgram.crawlSite("https://www.skiutah.com/");
         }
         catch(Exception e){

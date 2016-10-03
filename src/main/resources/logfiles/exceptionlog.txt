@@ -1,0 +1,192 @@
+Mon Oct 03 10:31:12 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/ : null
+Mon Oct 03 10:32:07 MDT 2016 : Undefined Exception caught on https://www.wvcert.org/ : java.security.cert.CertificateException: No subject alternative DNS name matching www.wvcert.org found.
+Mon Oct 03 10:32:58 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 10:35:18 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 10:35:18 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 10:35:18 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 10:35:18 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 10:35:18 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 10:35:23 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 10:35:23 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 10:35:23 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 10:35:23 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 10:35:23 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 10:35:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 10:35:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 10:35:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 10:35:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 10:35:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 10:35:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 10:35:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 10:35:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 10:35:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 10:35:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 10:35:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 10:36:04 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 10:36:04 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 10:36:04 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 10:36:04 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 10:36:04 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 10:36:09 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 10:36:09 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 10:36:09 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 10:36:09 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 10:36:09 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 10:36:14 MDT 2016 : Undefined Exception caught on http://wvcert.org/?feed=comments-rss2 : null
+Mon Oct 03 10:38:15 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 10:39:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 10:39:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 10:39:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 10:39:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 10:39:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 10:39:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 10:39:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 10:39:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 10:39:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 10:39:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 10:39:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 10:39:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 10:39:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 10:39:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 10:39:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 10:39:43 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 10:40:57 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 10:45:00 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 10:48:14 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 10:50:21 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 10:58:00 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 10:59:13 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 11:00:12 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 11:01:31 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 11:04:51 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 11:08:05 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 11:08:53 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 11:12:11 MDT 2016 : Undefined Exception caught on http://wvcert.org/ : null
+Mon Oct 03 11:21:16 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 11:21:16 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 11:21:16 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 11:21:16 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 11:21:16 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 11:21:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 11:21:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 11:21:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 11:21:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 11:21:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 11:21:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 11:21:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 11:21:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 11:21:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 11:21:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 11:21:31 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 12:48:48 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 12:48:48 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 12:48:48 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 12:48:48 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 12:48:48 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 12:48:53 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 12:48:53 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 12:48:53 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 12:48:53 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 12:48:53 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 12:48:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 12:48:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 12:48:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 12:48:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 12:48:59 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 12:49:04 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 12:50:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 12:50:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 12:50:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 12:50:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 12:50:28 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 12:50:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 12:50:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 12:50:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 12:50:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 12:50:33 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 12:50:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 12:50:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 12:50:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 12:50:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 12:50:38 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 12:50:43 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 13:38:35 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 13:38:35 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 13:38:35 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 13:38:35 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 13:38:35 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 13:38:40 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 13:38:40 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 13:38:40 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 13:38:40 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 13:38:40 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 13:38:45 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 13:38:45 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 13:38:45 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 13:38:45 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 13:38:45 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 13:38:50 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 13:47:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 13:47:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 13:47:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 13:47:21 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 13:47:25 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 13:47:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 13:47:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 13:47:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 13:47:26 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 13:47:30 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 13:47:31 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 13:47:31 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 13:47:31 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 13:47:31 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 13:47:35 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 13:48:42 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 13:48:42 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 13:48:42 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 13:48:42 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 13:48:42 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 13:48:47 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 13:48:47 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 13:48:47 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 13:48:47 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 13:48:47 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 13:48:52 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 13:48:52 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 13:48:52 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 13:48:52 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 13:48:52 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 13:48:57 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 14:18:20 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=48 : Read timed out
+Mon Oct 03 14:18:20 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=27 : Read timed out
+Mon Oct 03 14:18:20 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=15 : Read timed out
+Mon Oct 03 14:18:20 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=19 : Read timed out
+Mon Oct 03 14:18:20 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=17 : Read timed out
+Mon Oct 03 14:18:25 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=21 : Read timed out
+Mon Oct 03 14:18:25 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=29 : Read timed out
+Mon Oct 03 14:18:25 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=25 : Read timed out
+Mon Oct 03 14:18:25 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=45 : Read timed out
+Mon Oct 03 14:18:25 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=23 : Read timed out
+Mon Oct 03 14:18:30 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=40 : Read timed out
+Mon Oct 03 14:18:30 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?attachment_id=586 : Read timed out
+Mon Oct 03 14:18:30 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?page_id=593 : Read timed out
+Mon Oct 03 14:18:30 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/wp-login.php : Read timed out
+Mon Oct 03 14:18:30 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=rss2 : Read timed out
+Mon Oct 03 14:18:35 MDT 2016 : SocketTimeoutException caught on http://wvcert.org/?feed=comments-rss2 : Read timed out
+Mon Oct 03 14:21:56 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/beaver-mountain/webcams/logan_canyon : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:21:57 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/beaver-mountain/trailmaps/picturewithconversions/trailmap/download : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:03 MDT 2016 : Invalid response code on the following page:http://www.skicpr.com/skisnowboard-hours-rates : HTTP error fetching URL
+Mon Oct 03 14:22:03 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/cherry/trailmaps/cherry-peak/trailmap/download : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:05 MDT 2016 : Invalid response code on the following page:http://nordicvalley.com/shop/ : HTTP error fetching URL
+Mon Oct 03 14:22:05 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/nordic-valley/trailmaps/picturewithconversions/trailmap/download : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:06 MDT 2016 : Invalid response code on the following page:http://nordicvalley.com/product-category/lift-tickets/ : HTTP error fetching URL
+Mon Oct 03 14:22:08 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/powder-mountain/webcams/timberline : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:08 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/powder-mountain/webcams/hidden-lake : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:08 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/powder-mountain/webcams/highway : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:09 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/powder-mountain/trailmaps/picturewithconversions/trailmap/download : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:15 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/snowbasin/webcams/snowstake : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:15 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/snowbasin/webcams/john-paul-lodge : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:15 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/snowbasin/webcams/strawberry-base : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:15 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/snowbasin/webcams/earl-plaza : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:15 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/snowbasin/webcams/needles-patio : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml
+Mon Oct 03 14:22:17 MDT 2016 : Undefined Exception caught on https://www.skiutah.com/members/snowbasin/trailmaps/picturewithconversions/trailmap/download : Unhandled content type. Must be text/*, application/xml, or application/xhtml+xml

@@ -32,10 +32,10 @@ public class Crawl implements Callable {
             //Create a scraper
             HtmlTextScraper scraper = new HtmlTextScraper(doc);
             //Scrape the text
-            String[] pageText = scraper.scrapePageText();
+            String[] pageText = scraper.scrapePageTextOld();
 
             //Write the text to a file
-            DictionaryBuilder.updateDictionary(pageText);
+            DictionaryBuilder.addPageText(pageText);
             //Get the Links
             returnValues = scraper.getPageLinks();
         } catch (HttpStatusException hse) {

@@ -51,6 +51,7 @@ public class CrawlerProgram {
             }
             Thread.sleep(300);
         }
+        DictionaryBuilder.buildDictionary();
     }
 
     private static boolean UrlIsOkay(String newUrl) {
