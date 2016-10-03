@@ -17,10 +17,12 @@ public class Crawl implements Callable {
     private String url;
     private Connection ct;
     private Document doc;
+private String domainName;
 
-
-    public Crawl(String initialUrl) {
+    public Crawl(String initialUrl, String domain) {
         url = initialUrl;
+        domainName = domain;
+     //   System.out.println(domainName);
     }
 
     public List<String> call() throws Exception {
@@ -29,8 +31,10 @@ public class Crawl implements Callable {
         try {
             ct = Jsoup.connect(url).timeout(5000).userAgent("Chrome");
             doc = ct.get();
+
+            System.out.println(url);
             //Create a scraper
-            HtmlTextScraper scraper = new HtmlTextScraper(doc);
+            HtmlTextScraper scraper = new HtmlTextScraper(doc, domainName);
             //Scrape the text
             String[] pageText = scraper.scrapePageTextOld();
 

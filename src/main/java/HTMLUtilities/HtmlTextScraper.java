@@ -8,10 +8,11 @@ public class HtmlTextScraper {
 
     public Document doc;
     private ArrayList<String> pageLinks;
-
-    public HtmlTextScraper(Document docToScrape) {
-        System.out.println("Scraping page");
+    private String domainName;
+    public HtmlTextScraper(Document docToScrape, String domainNameToScrape) {
+       // System.out.println("Scraping page");
         doc = docToScrape;
+        domainName = domainNameToScrape;
     }
 
 
@@ -34,6 +35,8 @@ public class HtmlTextScraper {
     }
 
 
+
+
     public ArrayList<String> getPageLinks() {
         populatePageLinks();
         return pageLinks;
@@ -46,8 +49,16 @@ public class HtmlTextScraper {
         }
         for (Element link : anchorTags
                 ) {
-            String href = link.attr("href");
-            if (pageLinks.contains(href) == false) {
+            String href = link.attr("href").toLowerCase();
+            if (pageLinks.contains(href) == false
+                    && href.contains(domainName)==true
+                    && !href.contains("@@")
+                    && !href.contains("&")
+                    && !href.contains("?")
+                    && !href.contains("..")
+                    && !href.contains("blog")
+                    && !href.contains(",")
+                    && !href.contains("mobile"))  {
                 pageLinks.add(href);
             }
         }

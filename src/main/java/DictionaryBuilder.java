@@ -86,7 +86,7 @@ public class DictionaryBuilder {
             BufferedWriter textWriter = new BufferedWriter(writer);
             int currentIndex = 0;
             int nextIndex = currentIndex + 1;
-            while (nextIndex < wordList.size()) {
+            while (currentIndex < wordList.size()) {
                 String word = wordList.get(currentIndex);
                 String nextWord = wordList.get(nextIndex);
                 int occurrences = 1;
@@ -94,7 +94,10 @@ public class DictionaryBuilder {
                     occurrences = occurrences + 1;
                     currentIndex = currentIndex + 1;
                     nextIndex = currentIndex + 1;
-                    nextWord = wordList.get(nextIndex);
+                    if(nextIndex <wordList.size()) {
+                        nextWord = wordList.get(nextIndex);
+                    }
+                    else{nextWord = "";}
                 }//// end nested while
                 String textLine = word+ "," + occurrences;
                 try {

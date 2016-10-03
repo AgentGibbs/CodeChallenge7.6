@@ -23,7 +23,9 @@ public class CrawlerProgram {
         ConcurrentLinkedQueue<Future<List<String>>> futures = new ConcurrentLinkedQueue<Future<List<String>>>();
         ExecutorService threadPool = Executors.newFixedThreadPool(maxThreadCount);
 
-        Crawl crawl = new Crawl(initialUrl);
+        Crawl crawl = new Crawl(initialUrl, domainName);
+
+
         crawledList.add(initialUrl);
 
         futures.add(threadPool.submit(crawl));
@@ -32,9 +34,10 @@ public class CrawlerProgram {
             for (Future<List<String>> future : futures) {
                 if (future.isDone()) {
                     List<String> newUrls = future.get();
+                   // System.out.println("Searching for links...");
                     for (String newUrl : newUrls) {
                         if (UrlIsOkay(newUrl)) {
-                            System.out.println("New URL found: " + newUrl);
+                            //System.out.println("New URL found: " + newUrl);
                             toCrawlList.add(newUrl);
                         }
                     }
@@ -46,7 +49,7 @@ public class CrawlerProgram {
             futures.removeAll(completedFutures);
             while (!toCrawlList.isEmpty()) {
                 String urlToCrawl = toCrawlList.poll();
-                futures.add(threadPool.submit(new Crawl(urlToCrawl)));
+                futures.add(threadPool.submit(new Crawl(urlToCrawl, domainName)));
                 crawledList.add(urlToCrawl);
             }
             Thread.sleep(300);
