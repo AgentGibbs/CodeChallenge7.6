@@ -56,7 +56,7 @@ public class HtmlTextScraper {
                     && !href.contains("&")
                     && !href.contains("?")
                     && !href.contains("..")
-                    && !href.contains("blog")
+                    && href.startsWith("https:/")
                     && !href.contains(",")
                     && !href.contains("mobile"))  {
                 pageLinks.add(href);
